@@ -5,6 +5,8 @@
 IN SHORT :- even column index --> printing is done from top to bottom ,achieved by setting row=0
 odd column index --> printing is done from bottom to top , achieved by setting row=extreme row i.e, i-1   */
 
+/* Time Complexity = O(row*column) as we traverse through all the elements in the 2D array */
+
 
 #include<iostream>
 using namespace std;
